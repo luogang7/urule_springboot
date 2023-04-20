@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    name: datasource
+    url: jdbc:mysql://127.0.0.1:3306/urule?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: admin123456
+
+  jackson:
+    default-property-inclusion: non_null
+
+urule:
+  repository:
+    databasetype: mysql
+    datasourcename: datasource
+
+server:
+  port: 8787
