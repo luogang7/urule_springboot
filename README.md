@@ -143,15 +143,15 @@ public class ClientApplication {
 #### 1.添加规则&发布
 
 ##### 配置参数
-![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_11-24-16.png?token=GHSAT0AAAAAACBUQ25OHJ7LBQXJ2CBY7VZMZCAW7DQ)
+![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_12-16-17.png?token=GHSAT0AAAAAACBUQ25P56SLW2DHVSE3DZZEZCAXU3Q)
 ##### 配置规则
-![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_11-24-44.png?token=GHSAT0AAAAAACBUQ25PVRRCAL24FYNT7S4YZCAXAPA)
+![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_12-14-15.png?token=GHSAT0AAAAAACBUQ25P4ZUPE5J2YCOM74FCZCAXWPQ)
 
 ##### 配置推送客户端
-![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_11-25-58.png?token=GHSAT0AAAAAACBUQ25PEEFJJMN66NBUCGL6ZCAXCYA)
+![image](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_12-15-05.png?token=GHSAT0AAAAAACBUQ25P5HQWNT6GVQBNZAPMZCAXV7Q)
 
 ##### 发布知识包
-![](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_11-26-22.png?token=GHSAT0AAAAAACBUQ25PW33D4FPZOXIBN7B6ZCAXDEQ)
+![](https://raw.githubusercontent.com/luogang7/file/main/Snipaste_2023-04-20_12-15-59.png?token=GHSAT0AAAAAACBUQ25OP6JQDFVZAUXE6GL4ZCAXVRQ)
 
 #### 2.编写Controller测试
 ##### RuleController.java
@@ -184,7 +184,10 @@ public class RuleController {
 ```
 
 #### 3.调用测试
+```
 http://localhost:7878/rule?threeDay=10&sevenDay=20&fifteenDay=30 返回false
 http://localhost:7878/rule?threeDay=11&sevenDay=21&fifteenDay=31 返回true
+```
 -------------------
-
+## 代码地址
+https://github.com/luogang7/urule_springboot.git
